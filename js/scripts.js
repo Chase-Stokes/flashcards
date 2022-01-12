@@ -31,41 +31,45 @@ $(document).ready(function(){
     $(".return-showing").slideToggle();
     $(".return-hidden").slideToggle();
   });
-  $(".clickable9").click(function() {
+  $(".clickable8").click(function() {
     $(".chaining-showing").slideToggle();
     $(".chaining-hidden").slideToggle();
   });
-  $(".clickable10").click(function() {
+  $(".clickable9").click(function() {
     $(".strings-showing").slideToggle();
     $(".strings-hidden").slideToggle();
   });
-  $(".clickable11").click(function() {
+  $(".clickable10").click(function() {
     $(".booleans-showing").slideToggle();
     $(".booleans-hidden").slideToggle();
   });
-  $(".clickable12").click(function() {
+  $(".clickable11").click(function() {
     $(".undefined-showing").slideToggle();
     $(".undefined-hidden").slideToggle();
   });
-  $(".clickable13").click(function() {
+  $(".clickable12").click(function() {
     $(".nan-showing").slideToggle();
     $(".nan-hidden").slideToggle();
   });
-  $(".clickable14").click(function() {
+  $(".clickable13").click(function() {
     $(".alert-showing").slideToggle();
     $(".alert-hidden").slideToggle();
   });
-  $(".clickable15").click(function() {
+  $(".clickable14").click(function() {
     $(".comments-showing").slideToggle();
     $(".comments-hidden").slideToggle();
   });
-  $(".clickable16").click(function() {
+  $(".clickable15").click(function() {
     $(".jquery-showing").slideToggle();
     $(".jquery-hidden").slideToggle();
   });
-  $(".clickable17").click(function() {
+  $(".clickable16").click(function() {
     $(".attributes-showing").slideToggle();
     $(".attributes-hidden").slideToggle();
+  });
+  $(".clickable17").click(function() {
+    $(".null-showing").slideToggle();
+    $(".null-hidden").slideToggle();
   });
 
 })
